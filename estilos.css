@@ -1,0 +1,47 @@
+body {
+  background: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.painel {
+  display: flex;
+  gap: 15px;
+  padding: 20px;
+  background: white;
+  border: 4px solid #ccc;
+  border-radius: 12px;
+}
+
+.coluna {
+  width: 130px;
+  height: 320px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  border: 3px groove #888;
+  border-radius: 10px;
+  padding: 5px;
+  background: #eee;
+}
+
+.bloco {
+  width: 60px;
+  height: 60px;
+  border-radius: 8px;
+  border: 2px solid #00000055;
+}
+
+/* Cores */
+.azul    { background-color: blue; }
+.verde   { background-color: green; }
+.vermelho{ background-color: red; }
+.amarelo { background-color: yellow; }
+.rosa    { background-color: magenta; }
+.ciano   { background-color: cyan; }
+.roxo    { background-color: purple; }
+.laranja { background-color: orange; }
+.cinza   { background-color: gray; }
